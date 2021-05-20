@@ -75,24 +75,7 @@ let currentLevel = 0
 let lucy: Sprite = null
 let maggie: Sprite = null
 maggie = sprites.create(assets.image`maggie`, SpriteKind.Player)
-lucy = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    `, SpriteKind.Player)
+maggie = sprites.create(assets.tile`myTile11`, SpriteKind.Player)
 maggie.ay = 500
 lucy.ay = 500
 controller.moveSprite(maggie, 100, 0)

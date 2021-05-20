@@ -58,23 +58,11 @@
         "tilemapTile": true,
         "displayName": "myTile8"
     },
-    "tile11": {
-        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "myTile9"
-    },
     "tile12": {
         "data": "hwQQABAAAAAAAAB3AgAAAAAAcH93AAAAAABwd3cAAAAAAHB3dwAAAAAAAHcHAAAAAAAAZmYAAAAAAHB2Z2cAAAAAZnZnZwAAAAB3ZmZnAAAAAHdmZwAAAAAAZmZmAAAAAABmdmdnAAAAAHZ2Z2cAAAAAYGZmZwAAAAAAZmcAAAAAAAAAcAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
         "displayName": "myTile10"
-    },
-    "tile13": {
-        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "myTile11"
     },
     "tile14": {
         "data": "hwQQABAAAAAAAAD/DwAAAAAA8AAPAAAAAAAAD/8AAAAAAAAA/wAAAAAAAPD/AAAAAAAA//8AAAAAAPD//wAAAAAAAP//AAAAAAAA//8AAAAAAPD//wAAAAAAAP//AAAAAAAA8P8AAAAAAAAA/wAAAAAAAA//AAAAAADwAA8AAAAAAAD/DwAAAA==",
@@ -117,6 +105,18 @@
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
         "displayName": "myTile5"
+    },
+    "tile11": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAICIAAAAAAAAiGZmZmYAAIBoVVVliIgFgFb1X1VmZpaAVhVfU2hmlgBWVVVVaGaWAFb1X1VmZpYAZhVfZYiIBQBgZmZmZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "lucy"
+    },
+    "tile13": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile11"
     },
     "level6": {
         "id": "level6",
