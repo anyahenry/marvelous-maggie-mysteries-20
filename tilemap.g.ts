@@ -23,8 +23,6 @@ namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const tile12 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
-    export const tile14 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
     export const tile15 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile16 = image.ofBuffer(hex``);
@@ -38,6 +36,8 @@ namespace myTiles {
     export const tile7 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile11 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile14 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile13 = image.ofBuffer(hex``);
 
@@ -253,6 +253,25 @@ namespace myTiles {
 ............................2...2......22........2
 ........................2...2...2...2.222222222222
 `, [myTiles.transparency16,myTiles.tile1,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile10,sprites.castle.tileDarkGrass1,sprites.swamp.swampTile0,sprites.castle.tileDarkGrass2,myTiles.tile16,myTiles.tile17,myTiles.tile18,sprites.builtin.brick,sprites.dungeon.darkGroundNorthWest0,sprites.dungeon.darkGroundNorth,sprites.dungeon.darkGroundNorthEast0,sprites.dungeon.darkGroundCenter,sprites.dungeon.darkGroundWest,sprites.dungeon.darkGroundEast,sprites.dungeon.darkGroundSouth,sprites.dungeon.darkGroundSouthWest0,sprites.dungeon.darkGroundSouthEast0,sprites.builtin.forestTiles0,myTiles.tile19,sprites.dungeon.hazardLava1], TileScale.Sixteen);
+            case "level10":
+            case "level10":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16], TileScale.Sixteen);
         }
         return null;
     })
@@ -280,8 +299,6 @@ namespace myTiles {
             case "tile10":return tile10;
             case "myTile10":
             case "tile12":return tile12;
-            case "myTile12":
-            case "tile14":return tile14;
             case "black":
             case "tile15":return tile15;
             case "myTile13":
@@ -296,6 +313,8 @@ namespace myTiles {
             case "tile7":return tile7;
             case "lucy":
             case "tile11":return tile11;
+            case "myTile12":
+            case "tile14":return tile14;
             case "myTile11":
             case "tile13":return tile13;
         }

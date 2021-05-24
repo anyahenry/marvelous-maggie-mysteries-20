@@ -6,9 +6,6 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile1`, function (sprite, l
     info.player2.changeLifeBy(-1)
 })
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
-    if (maggie.vy == 0) {
-        maggie.vy = -200
-    }
     if (lucy.vy == 0) {
         lucy.vy = -200
     }
@@ -52,6 +49,11 @@ function startNextLevel () {
         MyEnemy.follow(lucy, 50)
     }
 }
+controller.player2.onButtonEvent(ControllerButton.Up, ControllerButtonEvent.Pressed, function () {
+    if (maggie.vy == 0) {
+        maggie.vy = -200
+    }
+})
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.hazardLava1, function (sprite, location) {
     game.over(false)
 })
@@ -75,7 +77,7 @@ let currentLevel = 0
 let lucy: Sprite = null
 let maggie: Sprite = null
 maggie = sprites.create(assets.image`maggie`, SpriteKind.Player)
-maggie = sprites.create(assets.tile`myTile11`, SpriteKind.Player)
+lucy = sprites.create(assets.image`lucy`, SpriteKind.Player)
 maggie.ay = 500
 lucy.ay = 500
 controller.moveSprite(maggie, 100, 0)
